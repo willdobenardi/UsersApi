@@ -3,7 +3,7 @@ import com.google.gson.annotations.SerializedName;
 public class User {
     @SerializedName("id")
     private String id;
-    @SerializedName("nama")
+    @SerializedName("first_name")
     private String name;
     @SerializedName("email")
     private String email;
